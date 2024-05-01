@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.task{
+    /* width: 100%; */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    /* padding: 2px; */
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+
+}
+
+.task p{
+    flex: 4;
+    /* padding: 5px; */
+    /* font-size: 1.3rem; */
+    margin: 10px;
+    /* padding-right: 100px; */
+}
+
+.task button{
+    /* flex: 1; */
+    padding:0 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.task .checkTask{
+ color: orange;
+ margin-right: 5px;
+ border: solid 2px orange;
+ font-size: 1.5rem;
+}
+
+.task .checkTask:hover {
+    background-color:orange;
+    color: white;
+}
+
+
+.task .deleteTask{
+    color: red;
+    border: solid 2px red;
+    font-size: 1.3rem;
+}
+
+.task .deleteTask:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
