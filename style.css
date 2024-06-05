@@ -7,16 +7,13 @@
 
 
 .task{
-    /* width: 100%; */
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 3px;
-    /* padding: 2px; */
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
     text-align: start;
-
 }
 
 .task p{
